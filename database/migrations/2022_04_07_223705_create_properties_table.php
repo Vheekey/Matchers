@@ -15,6 +15,17 @@ return new class extends Migration
     {
         Schema::create('properties', function (Blueprint $table) {
             $table->id();
+            $table->longText('name');
+            $table->longText('address');
+            $table->string('propertyType');
+            $table->integer('area');
+            $table->integer('yearOfConstruction');
+            $table->integer('rooms');
+            $table->string('heatingType');
+            $table->boolean('parking');
+            $table->bigInteger('returnActual');
+            $table->bigInteger('price');
+            $table->bigInteger('returnPotential');
             $table->timestamps();
         });
     }
