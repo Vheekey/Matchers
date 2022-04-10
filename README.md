@@ -13,6 +13,7 @@ This is a simple module to get similar profiles to the one being searched with p
 
 ### Request URI
 <pre> {{url}}/api/match/1 </pre>
+
 ### Sample Request
 <pre>
     {
@@ -20,7 +21,7 @@ This is a simple module to get similar profiles to the one being searched with p
         "area":[10000000000000,null]
     }
 </pre>
-### Sample Request
+### Sample Response
 <pre>
     [
         {
